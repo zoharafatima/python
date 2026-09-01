@@ -22,5 +22,5 @@
 #---------------------------------------------------
 #question 4
 text=input("Enter your text: ")
-text=text.replace("  "," ")
+text=text.replace("  "," ") #strings are immutable
 print(text)
