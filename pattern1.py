@@ -1,5 +1,5 @@
 class Solution:
-    def pattern2(self, n):
+    def pattern1(self, n):
         for i in range(n):
             print("*" * n)
 
@@ -8,4 +8,4 @@ class Solution:
 n = int(input("Enter N: "))
 
 obj = Solution()
-obj.pattern2(n)
+obj.pattern1(n)

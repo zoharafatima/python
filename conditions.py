@@ -38,9 +38,13 @@
 # else:
 #     print("This is not a spam comment.")
 # ________________________________________________________
-'''length checker'''
-name=input("Enter user name:")
-if(len(name)<10):
-    print("Your username has less than 10 characters.")
-else:
-    print("User name valid.")
+# '''length checker'''
+# name=input("Enter user name:")
+# if(len(name)<10):
+#     print("Your username has less than 10 characters.")
+# else:
+#     print("User name valid.")
+# _________________________________________________________
+for i in range(5):
+            print(i)
+
